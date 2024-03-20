@@ -21,6 +21,11 @@
 <p>To take event from server </p>
 <h3>use socket.on</h3>
 
+
+## Example
+
+<img src="./miniprojectexample.png" alt="miniprojectexample"/>
+
 ## Available Scripts
 
 In the project directory, you can run:
