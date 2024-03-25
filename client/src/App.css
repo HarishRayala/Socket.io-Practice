@@ -1,44 +1,6 @@
-body{
+/* body{
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.container{
-  width: 50vh;
-  border-radius: 5px;
-  border: 0.5px solid #6420AA;
-}
-
-.login{
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-input{
-  width: 50%;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-button{
-  width: 55%;
-  padding: 10px;
-  background:linear-gradient(180deg, #6420AA, #d83f87);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.username{
-  font-weight: bold;
-  background-clip: text;
-  background: linear-gradient(180deg, #6420AA, #d83f87);;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: absolute;
-  top: 15px;
-  right: 20px;
-}
+} */

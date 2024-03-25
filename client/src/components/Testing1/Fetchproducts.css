@@ -1,0 +1,15 @@
+.productsMainbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.productContentBox{
+    width: 240px;
+}
+.imagebox{
+    box-sizing: border-box;
+    width: 200px;
+}
+.imagebox img{
+    width: 200px;
+}

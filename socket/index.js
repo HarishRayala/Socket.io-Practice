@@ -41,6 +41,12 @@ io.on("connection", (socket) => {
   // here inside to it is socketid but to know whose id is this and which connection we have another way
   // io.to("shshuhsuuud").emit("firstEvent", "Hello this is test!")
 
+  console.log("connection success");
+
+  socket.on("productsFetched", (count) => {
+    console.log("valueat",count)
+    io.emit("productCountUpdate", count); // Emit the count to all connected clients
+  });
 
   socket.on("newUser",(username)=>{
     addNewUser(username,socket.id)
@@ -53,6 +59,8 @@ io.on("connection", (socket) => {
       type
     })
   })
+
+
 
   socket.on("disconnect", ()=>{
     removeUser(socket.id)
